@@ -18,7 +18,7 @@ tar -xzf prometheus-${VERSION}.darwin-amd64.tar.gz
 cd prometheus-${VERSION}.darwin-amd64
 ```
 
-解压后当前目录会包含默认的Prometheus配置文件promethes.yml:
+解压后当前目录会包含默认的Prometheus配置文件prometheus.yml:
 
 ```
 # my global config
@@ -60,7 +60,7 @@ mkdir -p data
 
 用户也可以通过参数`--storage.tsdb.path="data/"`修改本地数据存储的路径。
 
-启动prometheus服务，其会默认加载当前路径下的prometheus.yaml文件：
+启动prometheus服务，其会默认加载当前路径下的prometheus.yml文件：
 
 ```
 ./prometheus
